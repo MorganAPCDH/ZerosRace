@@ -1,0 +1,52 @@
+body {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/nightmare-background1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    text-decoration-color: white;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(1, 50px);
+    margin: 20px 0;
+    border: 1.5px solid white;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player1 {
+    background-color: orange;
+}
+
+.player2 {
+    background-color: red;
+}
+
+#dice {
+    font-size: 50px;
+    margin: 20px;
+}
+
+#message {
+    font-weight: bold;
+}
